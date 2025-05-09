@@ -21,33 +21,25 @@ const NosotrosPage = (props) => {
                         <img src="/images/shihangarcia1.jpg" alt="Profe1" />
                         <h5>Felix Garcia L. de Guevara</h5>
                         <h6>Hashin 9th Dan</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quidem beatae libero iusto rerum
-                            maxime ducimus officiis, consequuntur perspiciatis cum minus voluptate at tempore. Sapiente
-                            iusto aspernatur veritatis ad asperiores.</p>
+                        <p>Fundador del Estilo en chile y con más de 50 años de trayectoria.</p>
                     </div>
                     <div className="persona">
                         <img src="/images/germangarcia.JPG" alt="Profe2" />
                         <h5>German Garcia</h5>
                         <h6>Shihan 8th Dan</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quidem beatae libero iusto rerum
-                            maxime ducimus officiis, consequuntur perspiciatis cum minus voluptate at tempore. Sapiente
-                            iusto aspernatur veritatis ad asperiores.</p>
+                        <p>Nuestro Hashin es la persona con más alto rango dentro de la organización en este momento.</p>
                     </div>
                     <div className="persona">
-                        <img src="/images/logo.png" alt="Profe3" />
-                        <h5>Profesor ...</h5>
-                        <h6>Sensei Xth Dan</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quidem beatae libero iusto rerum
-                            maxime ducimus officiis, consequuntur perspiciatis cum minus voluptate at tempore. Sapiente
-                            iusto aspernatur veritatis ad asperiores.</p>
+                        <img src="/images/victorcorvalan.jpg" alt="Profe3" />
+                        <h5>Victor Corvalan</h5>
+                        <h6>Sensei 6th Dan</h6>
+                        <p>Más de 40 años de trayectoria dentro del Dojo Central.</p>
                     </div>
                     <div className="persona">
-                        <img src="/images/logo.png" alt="Profe4" />
-                        <h5>Profesor ...</h5>
-                        <h6>Sensei Xth Dan</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quidem beatae libero iusto rerum
-                            maxime ducimus officiis, consequuntur perspiciatis cum minus voluptate at tempore. Sapiente
-                            iusto aspernatur veritatis ad asperiores.</p>
+                        <img src="/images/jorgeguzman.jpg" alt="Profe4" />
+                        <h5>Jorge Guzman</h5>
+                        <h6>Sensei 5th Dan</h6>
+                        <p>Más de 40 años de trayectoria dentro del Dojo Central, experto en Katas.</p>
                     </div>
                 </div>
 

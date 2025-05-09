@@ -14,18 +14,20 @@ import NovedadesPage from './pages/NovedadesPage';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-container">
       <Header />
       <BrowserRouter>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="nosotros" element={<NosotrosPage />} />
-          <Route path="beneficios" element={<BeneficiosPage />} />
-          <Route path="galeria" element={<GaleriaPage />} />
-          <Route path="novedades" element={<NovedadesPage />} />
-          <Route path="contacto" element={<ContactoPage />} />
-        </Routes>
+        <main>
+          <Nav />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="nosotros" element={<NosotrosPage />} />
+            <Route path="beneficios" element={<BeneficiosPage />} />
+            <Route path="galeria" element={<GaleriaPage />} />
+            <Route path="novedades" element={<NovedadesPage />} />
+            <Route path="contacto" element={<ContactoPage />} />
+          </Routes>
+        </main>
       </BrowserRouter>
 
       <Footer />
