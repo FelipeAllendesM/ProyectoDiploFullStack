@@ -7,7 +7,7 @@ async function getUserByUserAndPass(user, pass) {
         var rows = await pool.query(query, [user, md5(pass)]);
         return rows[0];
     } catch (error) {
-        console.error(error);
+        throw error;
     }
 }
 module.exports = { getUserByUserAndPass }

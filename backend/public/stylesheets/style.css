@@ -16,16 +16,30 @@ header img {
 
 header h1 {
   font-family: "Aclonica", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-  font-size: 50px;
-  display: inline-block;
-  bottom: 35px;
-  margin-left: 10px;
-  align-items: center;
-  justify-content: center;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    bottom: 35px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
 }
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+html {
+  overflow-y: scroll;
+}
+
 footer {
   background-color: #ccc;
   clear:both;

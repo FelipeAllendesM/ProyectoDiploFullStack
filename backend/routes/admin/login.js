@@ -32,7 +32,7 @@ router.post('/', async (req, res, next) => {
             res.redirect('/admin/novedades');
         } else {
             res.render('admin/login', {
-                layout: 'admin/login',
+                layout: 'admin/layout',
                 error: true
             });
         }
