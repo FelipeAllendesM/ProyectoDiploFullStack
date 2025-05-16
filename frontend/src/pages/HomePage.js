@@ -21,7 +21,7 @@ const HomePage = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="homeimg">
+            <div>
                 <img src="/images/Home.jpg" alt='imagen principal' />
             </div>
         </main>
