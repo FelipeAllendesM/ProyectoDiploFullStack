@@ -105,7 +105,6 @@ router.post('/modificar', async (req, res, next) => {
             img_id = null;
             borrar_img_vieja = true;
         } else {
-            console.log(req.files);
             if (req.files && Object.keys(req.files).length > 0) {
                 const imagen = req.files.imagen;
                 img_id = (await uploader(imagen.tempFilePath)).public_id;
